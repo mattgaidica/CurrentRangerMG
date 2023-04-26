@@ -598,6 +598,7 @@ void loop() {
       u8g2.drawGlyph(115, 10, 0xE243);     //5%!
     else u8g2.drawGlyph(115, 10, 0xE242);  //u8g2.drawStr(88,12,"LoBat!");
 
+    // Matt
     u8g2.setFont(u8g2_font_6x12_tf);  //7us
     if (AUTORANGE) {
       u8g2.drawStr(0, 12, analog_ref_half ? "AUTO\xb7\xbd" : "AUTO");
